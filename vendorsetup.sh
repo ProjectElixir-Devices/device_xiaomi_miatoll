@@ -1,6 +1,6 @@
 # device/xiaomi
 rm -rf device/xiaomi/sm6250-common/
-git clone -b tiramisu https://github.com/ProjectElixir-Devices/device_xiaomi-sm6250-common.git device/xiaomi/sm6250-common --depth=1
+git clone -b 14 https://github.com/ProjectElixir-Devices/device_xiaomi-sm6250-common.git device/xiaomi/sm6250-common --depth=1
 
 # hardware/dolby
 rm -rf hardware/dolby/
@@ -9,7 +9,7 @@ git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby
 # vendor/xiaomi
 rm -rf vendor/xiaomi/
 git clone -b tiramisu https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
-git clone -b tiramisu https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-common.git vendor/xiaomi/sm6250-common --depth=1
+git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-common.git vendor/xiaomi/sm6250-common --depth=1
 git clone -b miuicam https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera --depth=1
 
 # clang
