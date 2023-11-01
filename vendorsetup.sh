@@ -10,6 +10,7 @@ git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby
 rm -rf vendor/xiaomi/
 git clone -b tiramisu https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
 git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-common.git vendor/xiaomi/sm6250-common --depth=1
+git clone -b LMC https://gitlab.com/userariii/vendor_xiaomi_LMC-Camera.git vendor/xiaomi/LMC-Camera --depth=1
 
 # clang
 rm -rf prebuilts/clang/host/linux-x86/clang-14.0
