@@ -19,3 +19,7 @@ git clone -b main https://gitlab.com/Panchajanya1999/azure-clang prebuilts/clang
 # kernel/xiaomi
 rm -rf kernel/xiaomi/
 git clone -b tiramisu https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
+
+# Extra
+rm -rf device/qcom/sepolicy_vndr-legacy-um
+git clone -b fourteen https://github.com/PixelExperience-Staging/device_qcom_sepolicy_vndr-legacy-um.git device/qcom/sepolicy_vndr-legacy-um --depth=1
