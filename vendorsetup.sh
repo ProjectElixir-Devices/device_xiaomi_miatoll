@@ -13,8 +13,8 @@ git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-co
 git clone -b LMC https://gitlab.com/userariii/vendor_xiaomi_LMC-Camera.git vendor/xiaomi/LMC-Camera --depth=1
 
 # clang
-rm -rf prebuilts/clang/host/linux-x86/clang-14.0
-git clone -b main https://gitlab.com/Panchajanya1999/azure-clang prebuilts/clang/host/linux-x86/clang-14.0 --depth=1
+rm -rf prebuilts/clang/host/linux-x86/clang-r498229b
+git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.git prebuilts/clang/host/linux-x86/clang-r498229b --depth=1
 
 # kernel/xiaomi
 rm -rf kernel/xiaomi/
