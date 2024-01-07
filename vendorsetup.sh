@@ -8,7 +8,7 @@ git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby
 
 # vendor/xiaomi
 rm -rf vendor/xiaomi/
-git clone -b tiramisu https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
+git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
 git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-common.git vendor/xiaomi/sm6250-common --depth=1
 git clone -b LMC https://gitlab.com/userariii/vendor_xiaomi_LMC-Camera.git vendor/xiaomi/LMC-Camera --depth=1
 
@@ -18,7 +18,7 @@ git clone -b clang-r498229b https://github.com/Xiaomi-SD720G-Devices/AOSP-clang.
 
 # kernel/xiaomi
 rm -rf kernel/xiaomi/
-git clone -b tiramisu https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
+git clone -b 14 https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1
 
 # Extra
 rm -rf device/qcom/sepolicy_vndr-legacy-um
