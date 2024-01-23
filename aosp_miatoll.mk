@@ -8,7 +8,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # LMC-Camera
-$(call inherit-product, vendor/xiaomi/LMC-Camera/config.mk)
+# $(call inherit-product, vendor/xiaomi/LMC-Camera/config.mk)
 
 PRODUCT_NAME := aosp_miatoll
 PRODUCT_DEVICE := miatoll

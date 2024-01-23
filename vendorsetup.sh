@@ -4,13 +4,24 @@ git clone -b 14 https://github.com/ProjectElixir-Devices/device_xiaomi-sm6250-co
 
 # hardware/dolby
 rm -rf hardware/dolby/
+rm -rf hardware/Motorola/Dolby
 git clone -b main https://github.com/userariii/hardware_dolby.git hardware/dolby --depth=1
+git clone -b v1.1-daxappui https://github.com/userariii/hardware_Motorola_Dolby.git hardware/Motorola/Dolby --depth=1
+
+# hardware/Dolby-Vision
+rm -rf hardware/Dolby-Vision
+git clone -b master https://github.com/userariii/hardware_Dolby-Vision.git hardware/Dolby-Vision --depth=1
+
+# hardware/google/pixel
+rm -rf hardware/google/pixel
+git clone -b thirteen https://github.com/PixelExperience-LEGACY-edition/hardware_google_pixel.git hardware/google/pixel --depth=1
 
 # vendor/xiaomi
 rm -rf vendor/xiaomi/
 git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
 git clone -b 14 https://github.com/ProjectElixir-Devices/vendor_xiaomi_sm6250-common.git vendor/xiaomi/sm6250-common --depth=1
 git clone -b LMC https://gitlab.com/userariii/vendor_xiaomi_LMC-Camera.git vendor/xiaomi/LMC-Camera --depth=1
+git clone -b miuicam https://gitlab.com/userariii/vendor-xiaomi-miuicamera.git vendor/xiaomi/miuicamera --depth=1
 
 # clang
 rm -rf prebuilts/clang/host/linux-x86/clang-r498229b
