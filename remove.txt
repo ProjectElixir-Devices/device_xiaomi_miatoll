@@ -1,5 +1,9 @@
 device/xiaomi/
-vendor/xiaomi/
-kernel/xiaomi/
 hardware/dolby
-prebuilts/clang/host/linux-x86/clang-14.0
+hardware/Dolby-Vision
+hardware/google/pixel
+hardware/sony/timekeep
+kernel/xiaomi/
+prebuilts/clang/host/linux-x86/clang-r498229b
+vendor/qcom/opensource/vibrator
+vendor/xiaomi/
