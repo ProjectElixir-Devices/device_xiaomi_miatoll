@@ -22,6 +22,10 @@ git clone -b lineage-21.0 https://github.com/LineageOS/android_hardware_google_p
 rm -rf hardware/sony/timekeep
 git clone -b lineage-21 https://github.com/LineageOS/android_hardware_sony_timekeep.git hardware/sony/timekeep --depth=1
 
+# hardware/xiaomi
+rm -rf hardware/xiaomi
+git clone -b lineage-21 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi --depth=1
+
 # kernel/xiaomi
 rm -rf kernel/xiaomi/
 git clone -b 14 https://github.com/ProjectElixir-Devices/kernel_xiaomi_sm6250.git kernel/xiaomi/sm6250 --depth=1

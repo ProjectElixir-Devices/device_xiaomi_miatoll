@@ -3,6 +3,7 @@ hardware/dolby
 hardware/Dolby-Vision
 hardware/google/pixel
 hardware/sony/timekeep
+hardware/xiaomi
 kernel/xiaomi/
 prebuilts/clang/host/linux-x86/clang-r498229b
 vendor/qcom/opensource/vibrator
